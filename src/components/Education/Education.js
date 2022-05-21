@@ -11,7 +11,7 @@ function Education() {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <div className={'timeLineContainer'} style={{backgroundColor: theme.secondary}}>
+        <div className={'timeLineContainer'} id={'education'} style={{backgroundColor: theme.secondary}}>
             <div className={'titleContainer'}>
                 <h2 style={{color:theme.primary}}>Opleidingen</h2>
             </div>

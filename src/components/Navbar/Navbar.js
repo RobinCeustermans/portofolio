@@ -223,7 +223,7 @@ function Navbar() {
                                 duration={2000}
                             >
                                 <div className={classes.drawerItem}>
-                                    <HiDocumentText
+                                    <BsFillGearFill
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
@@ -241,11 +241,11 @@ function Navbar() {
                                 duration={2000}
                             >
                                 <div className={classes.drawerItem}>
-                                    <BsFillGearFill
+                                    <HiDocumentText
                                         className={classes.drawerIcon}
                                     />
                                     <span className={classes.drawerLinks}>
-                                        Education
+                                        Opleiding
                                     </span>
                                 </div>
                             </NavLink>
