@@ -121,7 +121,7 @@ function Landing() {
                         style={{ color: theme.secondary }}
                     >
                         <h6>{headerData.title}</h6>
-                        <h1 style={{ color : theme.accent}}>{headerData.name}</h1>
+                        <h1 className={'landingHeader'} style={{ color : theme.accent}}>{headerData.name}</h1>
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>

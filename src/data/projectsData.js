@@ -1,5 +1,5 @@
-import library from'../assets/png/LibraryDB.png'
-import portofolio from '../assets/png/portofolio.png'
+import library from'../assets/png/LibraryDB.png';
+import daems from '../assets/png/giovanni-daems.png';
 
 export const projectsData = [
     {
@@ -20,16 +20,17 @@ export const projectsData = [
     },
     {
         id: 2,
-        projectName: 'Portofolio website',
-        projectDesc: 'Deze hoogsteigen portofolio website is door mezelf gemaakt.' +
-            ' Hier heb ik met het React Javascript Framework gewerkt.' +
-            ' Ik heb hier gewerkt met componenten, die de data dynamisch toepast,' +
-            ' deze componenten worden vervolgens samen opgehaald, zodat er geen overbodige code komt' +
-            ' te staan in de index',
-        tags: ['HTML', 'CSS','Javascript','Typescrit', 'React'],
+        projectName: 'Giovanni Daems',
+        projectDesc: 'Tijdens mijn stage bij Krachtig Online heb ik voor de klant Giovanni Daems meerdere dingen' +
+            ' aangepast aan hun website. Zo diende ik via Elementor visuele aanpassingen door te voeren ' +
+            'zoals enkele visuele bugs en de responsieve weergave. Een bijkomnde opdracht was het verbeteren van ' +
+            'de webshop. Ik diende ervoor te zorgen dat de labour costs visueel automatisch werden aangepast ' +
+            'als er een bepaal aantal van een product wordt geselecteerd. Dit heb ik kunnn doen door JavaScript toe ' +
+            'te voegen in de Wordpress back-end.',
+        tags: ['Wordpress', 'Elementor', 'CSS','Javascript'],
         code: '',
-        demo: 'https://github.com/RobinCeustermans/portofolio',
-        image: portofolio
+        demo: 'https://daems-giovanni.com/',
+        image: daems
     },
 ]
 

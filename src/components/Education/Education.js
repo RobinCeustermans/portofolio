@@ -12,8 +12,8 @@ function Education() {
     const { theme } = useContext(ThemeContext);
     return (
         <div className={'timeLineContainer'} id={'education'} style={{backgroundColor: theme.secondary}}>
-            <div className={'titleContainer'}>
-                <h2 style={{color:theme.primary}}>Opleidingen</h2>
+            <div className={'education--header'}>
+                <h1 style={{color:theme.primary}}>Opleidingen en ervaring</h1>
             </div>
             <div className={'timeline'}>
                 {educationData.map(e => (
@@ -24,6 +24,7 @@ function Education() {
                         course={e.course}
                         startYear={e.startYear}
                         endYear={e.endYear}
+                        link={e.link}
                     />
                 ))}
             </div>

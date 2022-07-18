@@ -140,13 +140,16 @@
 }
 
 @media (max-width: 900px) {
-
   .landing {
     height: 80vw;
   }
 
   .landing--img {
     --img-size: 300px;
+  }
+
+  .landingHeader{
+    font-size: 40px !important;
   }
 
   .landing--social {

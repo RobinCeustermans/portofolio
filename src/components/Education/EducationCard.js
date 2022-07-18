@@ -7,7 +7,7 @@ import eduImgWhite from '../../assets/svg/education/eduImgWhite.svg'
 // import eduImgBlack from '../../assets/svg/education/eduImgBlack.svg'
 import './Education.css'
 
-function EducationCard({ id, institution, course, startYear, endYear }) {
+function EducationCard({ id, institution, course, startYear, endYear, link }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -21,7 +21,11 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
                         </div>
                         <h2>{startYear}-{endYear}</h2>
                         <h2 style={{color : theme.primary}}>{course}</h2>
-                        <p>{institution}</p>
+                        <br/>
+                        {link === '' ? <p className={'link'}>{institution}</p> :
+                            <a className={'link'} style={{color: link === '' ? 'black' : theme.icon}}
+                               target={'_blank'} href={link}>{institution}</a>}
+
                     </div>
             </div>
 

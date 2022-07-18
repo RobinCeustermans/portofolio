@@ -25,8 +25,26 @@
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 6vw;
+    /*margin-bottom: 6vw;*/
 }
+
+
+.education--header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 12vw;
+    padding-bottom: 4vw;
+}
+
+
+.education--header h1 {
+    margin-bottom: 40px;
+    font-size: 3.5rem;
+    font-family: var(--primaryFont);
+}
+
 
 .container {
     padding: 10px 40px;
@@ -92,6 +110,14 @@
     border-radius: 6px;
 }
 
+
+@media screen and (max-width: 800px) {
+    .education--header h1 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .timeline::after {
         left: 31px;
@@ -115,6 +141,11 @@
     .right {
         left: 0%;
     }
+
+    .education--header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
 }
 .educard-img {
     border-radius: 50%;
@@ -128,5 +159,10 @@
 
 .educard-img > img {
     width: 40px;
+}
+
+.link{
+    text-decoration: none !important;
+    font-size: 26px;
 }
 
